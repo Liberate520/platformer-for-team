@@ -33,11 +33,11 @@ while running:
 
     camera.update(player)
 
-    platforms.draw(...)
-    player.draw(...)
+    platforms.draw(window)
+    player.draw(window)
     for enemy in enemies:
-        enemy.draw(...)
+        enemy.draw(window)
     for coin in coins:
-        coin.draw(...)
+        coin.draw(window)
 
-    ui.draw(...)
+    ui.draw(window)
